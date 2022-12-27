@@ -108,6 +108,8 @@ while (queue.length > 0) {
     }
 
     // TODO: after finishing queue, check if any of the pixels that were supposed to be placed got overwritten. if so, add them to the queue
+    // TODO: only move to next pixel if placing was successful
+    // TODO: add option to save full canvas to folder as png every time it is changed
 }
 
 log("Done! Nothing more in queue.");
