@@ -1,0 +1,23 @@
+{
+    "private": "true",
+    "type": "module",
+    "scripts": {
+        "start": "tsx index.ts",
+        "dev": "tsx watch index.ts"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "^2.2.2",
+        "@tsconfig/recommended": "^1.0.1",
+        "@types/lodash": "^4.14.191",
+        "@types/node": "^18.11.18",
+        "chalk": "^5.2.0",
+        "dayjs": "^1.11.7",
+        "jimp": "^0.16.2",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+        "@vue/compiler-sfc": "^3.2.45",
+        "prettier": "^2.8.1"
+    }
+}

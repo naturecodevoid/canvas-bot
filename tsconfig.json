@@ -1,0 +1,25 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "ts-node": { "files": true },
+    "include": ["."],
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noEmitOnError": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "dist"
+    }
+}
