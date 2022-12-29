@@ -14,8 +14,8 @@ export const input: Pixel[] = [
 // Example: origin is 10, 10. In the input, there is a pixel at 2, 1. It will end up being placed at 12, 11.s
 // Please make sure that the origin doesn't result in any of the x or y values of pixels being larger than 99, or the bot won't work correctly.
 export const origin: Coordinate = {
-    x: 0,
-    y: 0,
+    x: 58,
+    y: 41,
 };
 
 // If the bot should check if the pixel that it is about to write is the same color. Disabling this will improve how fast squares are placed after the cooldown ends
